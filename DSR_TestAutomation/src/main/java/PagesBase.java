@@ -1,6 +1,7 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class PagesBase {
 
@@ -9,6 +10,7 @@ public class PagesBase {
     {
         PageFactory.initElements(driver, this);
     }
+    public Select select;
     protected static void clickbutton(WebElement button)
     {
         button.click();
