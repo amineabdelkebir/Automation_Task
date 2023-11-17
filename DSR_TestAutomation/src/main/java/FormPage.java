@@ -2,7 +2,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
-
+import io.qameta.allure.Step;
 public class FormPage extends PagesBase {
 
 	public FormPage(WebDriver driver) {
@@ -17,9 +17,9 @@ public class FormPage extends PagesBase {
     WebElement EmailTxtBox;
     @FindBy(name ="PhoneNumber")
     WebElement PhoneNumberTxtBox;
-    @FindBy(xpath = "//input[@type='radio' and @name='Gender' and @value='Male']")
+    @FindBy(css = "div>input[value='Male']")
     WebElement GenderRadiobtnM;
-    @FindBy(xpath = "//input[@type='radio' and @name='Gender' and @value='Female']")
+    @FindBy(css = "div>input[value='Female']")
     WebElement GenderRadiobtnF;
     @FindBy(name ="Vacancy")
     WebElement VacanvyDropdownSelect;
@@ -30,23 +30,33 @@ public class FormPage extends PagesBase {
     @FindBy(name ="submitbutton")
     WebElement Submmitbtn;
 
-    public void filluserForm(String firstname, String lastname, String email, String phonenumber, String VaccanySelection, String Genderchoice,String resumePath)
-    {
+    @Step("populate and complete the user form with relevant information")
+        public void filluserForm(String firstname, String lastname, String email, String phonenumber) {
 
         settext(FirstnameTxtBox, firstname);
         settext(LastnameTxtBox, lastname);
         settext(EmailTxtBox, email);
         settext(PhoneNumberTxtBox, phonenumber);
-        if ("Female".equals(Genderchoice)) {
+    }
+    public void selectGender(String Genderchoice) {
+
+        if (Genderchoice.equalsIgnoreCase("Female")) {
             clickbutton(GenderRadiobtnF);
-        } else if ("Male".equals(Genderchoice)) {
+        } else if (Genderchoice.equalsIgnoreCase("Male")) {
             clickbutton(GenderRadiobtnM);
         }
+    }
+
+    public void selectJob(String VaccanySelection) {
         select = new Select(VacanvyDropdownSelect);
         select.selectByVisibleText(VaccanySelection);
+    }
+    public void uploadResume(String resumePath) {
         choosefilebtn.sendKeys(resumePath);
-        clickbutton(AgrementChekBox);
+    }
 
+    public void AgrementSubmit() {
+        clickbutton(AgrementChekBox);
         clickbutton(Submmitbtn);
     }
    }

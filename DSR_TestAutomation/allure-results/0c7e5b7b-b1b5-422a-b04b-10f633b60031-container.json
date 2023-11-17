@@ -1,0 +1,1 @@
+{"uuid":"0c7e5b7b-b1b5-422a-b04b-10f633b60031","name":"JobApplicationTest","children":["e1952e32-8178-4d65-a2ce-4b3389c853ea"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1700253844939,"stop":1700253845110}],"afters":[],"start":1700253844897,"stop":1700253846825}
