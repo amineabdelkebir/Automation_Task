@@ -1,61 +1,48 @@
 import com.github.javafaker.Faker;
+import io.qameta.allure.Step;
 import org.openqa.selenium.Alert;
 import org.testng.Assert;
-import org.testng.IAnnotationTransformer;
 import org.testng.annotations.*;
 
 public class JobApplicationTest extends TestsBase {
-
-    FormPage FormObject;
+    JobApplicationPage FormObject;
     Faker faker;
     @BeforeClass(alwaysRun = true)
-    public void beforeClass()  {
-        FormObject = new FormPage(driver);
+    public void dataGenrator()  {
+        FormObject = new JobApplicationPage(driver);
         faker = new Faker();
     }
-
-        @Test(priority = 1,alwaysRun = true, dataProvider = "candidates-role")
-
-        public void verifyIfUserCanApplySucceffuly(String roles) {
+    @Test(priority = 1,alwaysRun = true)
+       public void verifyIfUserCanApplySucceffuly() {
+           // Data Creation
             String firstname = faker.name().firstName();
             String lastName = faker.name().lastName();
             String email = faker.internet().emailAddress();
-            String phonenumber = "9999999999";
+            String phonenumber = faker.phoneNumber().subscriberNumber(9);
+            String gender= faker.random().nextBoolean() ? "Male" : "Female";
+            String role = faker.random().nextBoolean() ? "QA Engineer" : faker.random().nextBoolean() ? "QAA Engineer" : "Business Analyst";
+           // Filling form
             FormObject.filluserForm(firstname,lastName,email,phonenumber);
-            FormObject.selectGender("Female");
-            FormObject.selectJob(roles);
+            FormObject.selectGender(gender);
+            FormObject.selectJob(role);
             FormObject.uploadResume(System.getProperty("user.dir")+"/data/cvQAEnginner.pdf");
             FormObject.AgrementSubmit();
-
-            Alert alert = driver.switchTo().alert();
-            System.out.println(alert.getText());
-            Assert.assertTrue(alert.getText().contains(email));
-            alert.accept();
+            handleAlert(email);
+               }
+    //Perform Alert PopUp
+    private void handleAlert(String expectedEmail) {
+        Alert alert = driver.switchTo().alert();
+        String alertText = alert.getText();
+        System.out.println(alertText);
+        Assert.assertTrue(alertText.contains(expectedEmail));
+        alert.accept();
     }
-    @DataProvider(name = "candidates-role")
-    public Object[][] searchData() {
-        return new Object[][] {
-               // {"QA Enginee"},
-                //{"QAA Engineer"},
-                {"Business Analyst"}//,
-                // Add more test data as needed
-        };
-    }
-
-
-
-
-
-
-    /*
-
     @AfterTest
-public void closeDriver() {
+        public void closeDriver() {
     // Close the WebDriver instance after the test is complete
     if (driver != null) {
         driver.quit();
     }
-}*/
-}
+}}
 
 
