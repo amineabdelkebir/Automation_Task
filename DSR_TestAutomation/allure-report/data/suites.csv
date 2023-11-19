@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Nov 17 21:04:13 WET 2023","Fri Nov 17 21:04:14 WET 2023","811","Practice Suite","Test Basics 1","JobApplicationTest","JobApplicationTest","verifyIfUserCanApplySucceffuly","verifyIfUserCanApplySucceffuly",""
+"passed","Sat Nov 18 09:50:52 WET 2023","Sat Nov 18 09:50:53 WET 2023","763","Job Application Form","Condidate Apply for QA position","JobApplicationTest","JobApplicationTest","verifyIfUserCanApplySucceffuly","verifyIfUserCanApplySucceffuly",""
+"broken","Fri Nov 17 21:02:12 WET 2023","Fri Nov 17 21:04:13 WET 2023","120788","Practice Suite","Test Basics 1","JobApplicationTest","JobApplicationTest","verifyIfUserCanApplySucceffuly","verifyIfUserCanApplySucceffuly",""

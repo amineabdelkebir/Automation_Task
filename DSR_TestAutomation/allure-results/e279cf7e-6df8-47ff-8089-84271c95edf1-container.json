@@ -1,0 +1,1 @@
+{"uuid":"e279cf7e-6df8-47ff-8089-84271c95edf1","name":"Condidate Apply for QA position","children":["dd8ea1ac-48dd-4f02-88ce-b3cba4221efa"],"befores":[],"afters":[{"name":"closeDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1700307200686,"stop":1700307200761}],"start":1700307199909,"stop":1700307200763}

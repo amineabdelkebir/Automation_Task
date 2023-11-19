@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cba764b8-a3ec-43ef-9442-36d35d878bbe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0c7e5b7b-b1b5-422a-b04b-10f633b60031-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0ecafda0-1b1d-458f-bbcb-247b7db4ce60-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/10a22817-0f2c-4c65-9223-35454dc26065-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/213678ac-85ef-4b79-9bb6-8b08f4fbc847-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/22f8f610-e2a3-4198-9bb6-61621512a7e7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f5b1d0a-cdfa-4db1-9bc3-2c276d7634c7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/47f7655d-9a2e-4a89-b3fd-d57e313e9540-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6f7a5c47-2ed7-46b5-8372-c2a9edf5f9a8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/70f45744-c90e-4d85-a309-4cdff4a1479f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8a6be2a6-bef8-48fd-8a19-d246ac677917-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9ed0d7b0-3bee-4128-b410-6f1d465dca32-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a9f317dc-afeb-4f32-8c71-8a88beab55e1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/af75a6bf-27d8-4fe9-aa20-d6da3311cd72-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bb17c5af-efee-4d66-9569-a5c6f0a23ffb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d224621c-e2ed-4f6a-a6c8-7e0be4c12c10-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d82a447e-5a91-4de3-853d-3869fa9aa849-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e1952e32-8178-4d65-a2ce-4b3389c853ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ed1af295-04ca-4192-96f1-74ca9c1af37b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cvQAEnginner.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/cvQAEnginner.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regression.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JobApplicationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JobApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JobApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestsBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/testTOtest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/hello-view.fxml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2YCjFpISxFKOMgRDAAcQMpBOmmj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/amine/Documents/Exersise/DSR_task-Automation/DSR_TestAutomation/Automation_Task/DSR_TestAutomation&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./home/amine/Documents/Exersise/DSR_task-Automation/DSR_TestAutomation/regression.xml">
+    <configuration name="ChromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSR_TestAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChromeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSR_TestAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsBase" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobApplicationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DSR_TestAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JobApplicationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobApplicationTest.usercanregistersuccssfuly" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DSR_TestAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JobApplicationTest" />
+      <option name="METHOD_NAME" value="usercanregistersuccssfuly" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/home/amine/Documents/Exersise/DSR_task-Automation/DSR_TestAutomation/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DSR_TestAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./home/amine/Documents/Exersise/DSR_task-Automation/DSR_TestAutomation/regression.xml" />
+        <item itemvalue="JUnit.TestsBase" />
+        <item itemvalue="JUnit.ChromeTest" />
+        <item itemvalue="TestNG.JobApplicationTest" />
+        <item itemvalue="TestNG.JobApplicationTest.usercanregistersuccssfuly" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cba764b8-a3ec-43ef-9442-36d35d878bbe" name="Changes" comment="" />
+      <created>1700036365002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700036365002</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/JobApplicationPage.java</url>
+          <line>33</line>
+          <properties class="JobApplicationPage" method="filluserForm">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
