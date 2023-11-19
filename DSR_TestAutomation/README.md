@@ -42,7 +42,7 @@ To run the project and generate Allure reports, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd path/to/your/Automation_Task
+    cd path/to/your/Automation_Task/DSR_TestAutomation
     ```
 
 3. Run the following command:
