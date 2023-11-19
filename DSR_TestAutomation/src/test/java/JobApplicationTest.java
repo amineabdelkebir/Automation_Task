@@ -1,19 +1,22 @@
 import com.github.javafaker.Faker;
-import io.qameta.allure.Step;
+import io.qameta.allure.Description;
 import org.openqa.selenium.Alert;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class JobApplicationTest extends TestsBase {
     JobApplicationPage FormObject;
     Faker faker;
-    @BeforeClass(alwaysRun = true)
+    @BeforeTest(alwaysRun = true)
     public void dataGenrator()  {
         FormObject = new JobApplicationPage(driver);
         faker = new Faker();
     }
     @Test(priority = 1,alwaysRun = true)
-       public void verifyIfUserCanApplySucceffuly() {
+    @Description("Perform Data Creation")
+            public void verifyIfUserCanApplySucceffuly(){
            // Data Creation
             String firstname = faker.name().firstName();
             String lastName = faker.name().lastName();
@@ -27,16 +30,11 @@ public class JobApplicationTest extends TestsBase {
             FormObject.selectJob(role);
             FormObject.uploadResume(System.getProperty("user.dir")+"/data/cvQAEnginner.pdf");
             FormObject.AgrementSubmit();
-            handleAlert(email);
+            Alert alert = driver.switchTo().alert();
+            String alertText = alert.getText();
+            Assert.assertTrue(FormObject.handleAlert(email,alertText),"Condidate Applied Succefully");
+            alert.accept();
                }
-    //Perform Alert PopUp
-    private void handleAlert(String expectedEmail) {
-        Alert alert = driver.switchTo().alert();
-        String alertText = alert.getText();
-        System.out.println(alertText);
-        Assert.assertTrue(alertText.contains(expectedEmail));
-        alert.accept();
-    }
     @AfterTest
         public void closeDriver() {
     // Close the WebDriver instance after the test is complete
